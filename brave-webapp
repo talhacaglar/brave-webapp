@@ -1,0 +1,12 @@
+#!/bin/bash
+#path is ~/.local/bin/brave-webapp
+
+URL="$1"
+
+if [[ -z "$URL" ]]; then
+    echo "Usage: omarchy-launch-webapp <url>"
+    exit 1
+fi
+
+# It depends on your brave binary path mine is brave directly
+exec brave --new-window "--app=$URL"
