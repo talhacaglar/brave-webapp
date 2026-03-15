@@ -1,3 +1,3 @@
 # brave-webapp
 
-A simple config for brave web-app
+A simple config for Brave web-app on Omarchy
